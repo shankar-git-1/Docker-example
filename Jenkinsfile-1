@@ -1,5 +1,5 @@
 pipeline {
-  agent {
+  Slave-1 {
     docker { image 'node:16-alpine' }
   }
   stages {
